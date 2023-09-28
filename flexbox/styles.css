@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    border: 5px solid purple;
+    flex-direction: column;
+}
+/* changing box sizes and flex directions to save space*/
+.object-one, .object-two, .object-three {
+    width: 200px;
+    height: 200px;
+    flex-direction: row;
+    text-align: center;
+}
+.object-one {
+    background-color: red;
+}
+
+.object-two {
+    background-color: yellow;
+}.object-three {
+    background-color: blue;
+}
+.object-four {
+    background-color: green;
+    align-self: flex-end;
+}
