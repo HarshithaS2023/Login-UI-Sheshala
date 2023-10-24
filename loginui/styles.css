@@ -1,63 +1,64 @@
 body {
-    background-color: rgb(227, 235, 255);   
-    display: flex;
+  background-color: rgb(227, 235, 255);   
+  display: flex;
+  height:100vh;
+  justify-content: center;
+
 }
 form {
-    border: 3px solid #f1f1f1;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-  }
-  
-div {
-    border: 5px solid rgb(203, 191, 243);
-    box-shadow: 4px 4px 5px rgb(102, 101, 101);
-    border-radius: 10%;
-    width: 300px;
-    height: 300px;
-    min-width: 200px;
-    min-height: 200px;
-  }
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
 
-  input[type=text], input[type=password] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: flex;
-    flex-wrap: center;
-    justify-content: center;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-  }
-  
-  /* Set a style for all buttons */
-  button {
-    background-color: #04AA6D;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-  }
-  
-  /* Add a hover effect for buttons */
-  button:hover {
-    opacity: 0.8;
-  }
-  
-  /* Add padding to containers */
+div {
+  border: 5px solid rgb(203, 191, 243);
+  box-shadow: 4px 4px 5px rgb(102, 101, 101);
+  border-radius: 10%;
+  width: 300px;
+  height: 300px;
+
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: flex;
+  flex-wrap: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 100px) {
   .container {
-    padding: 16px;
+    display: block;
+    float: none;
+    max-width: 100px;
   }
-  
- 
-  
-  /* Change styles for span and cancel button on extra small screens */
-  @media screen and (max-width: 300px) {
-    span.password {
-      display: block;
-      float: none;
-    }
-  }
+}
