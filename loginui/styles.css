@@ -15,7 +15,7 @@ form {
 
 div {
   border: 5px solid rgb(203, 191, 243);
-  box-shadow: 4px 4px 5px rgb(102, 101, 101);
+  box-shadow: 5px 4px 5px rgb(53, 53, 53);
   border-radius: 10%;
   width: 300px;
   height: 300px;
@@ -52,6 +52,7 @@ button:hover {
 /* Add padding to containers */
 .container {
   padding: 16px;
+  background-color: rgb(203, 191, 243);
 }
 
 /* Change styles for span and cancel button on extra small screens */
