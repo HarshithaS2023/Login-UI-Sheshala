@@ -10,8 +10,8 @@
         <link rel="stylesheet" href="styles.css" />
         <title>Email</title>
   </head>
-  <body class="vh-100 overflow-hidden">
-    <nav class="navbar bg-body-tertiary fixed-top">
+  <body class="vh-100 overflow-y">
+    <nav class="navbar bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"> <img src="https://1000logos.net/wp-content/uploads/2021/05/Gmail-logo.png" alt="Gmail logo" width="90" height="50"> Gmail</a>
         <form class="d-flex mt-3" role="search">
@@ -44,7 +44,7 @@
           </div>
         </div>
       </div>
-</nav> nav
+</nav>
     <div class="container mt-5"> <!-- Added container for better layout -->
       <div class="row h-100 overflow-hidden">
         <div class="col-lg-3 d-lg-block d-xl-block opacity-100" id="inbox-section">
@@ -56,7 +56,73 @@
             <button class="btn btn-dark w-100 m-1">Trash</button>
           </div>
         </div>
-      </div>
+        <div class="col-lg-4 d-lg-block d-xl-block opacity-100 " id="email-display" >
+          <div class="d-flex flex-column justify-content-start align-items-center gap-4">
+            <div class="card mb-3 " style="width: 100%;">
+              <div class="card-body mb-3">
+                <h5 class="card-title">Bay Valley Tech</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">bayvalleytech@gmail.com</h6>
+                <p class="card-text">Dear Harshitha Sheshala,<br>
+                  Make sure to update your Clockify hours for accurate data! We want to help you in your journey...</p>
+          </div>
+          
+          
+          <div class="card" style="width: 100%;">
+            <div class="card-body mb-3">
+              <h5 class="card-title">Figma</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">figma@gmail.com</h6>
+              <p class="card-text">Hi Harshitha, <br>
+                Welcome to Figma! <br> Make sure to check out all our resources on how to navigate Figma, the website, so you...</p>
+            </div>
+            <div class="highlight" style="width: 100%;">
+              <div class="card-body mb-1">
+                <h5 class="card-title">Free Code Camp</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">freeCodeCamp@gmail.com</h6>
+                <p class="card-text">Hello Harshitha Sheshala,<br>
+                  This is from Free Code Camp, the free online coding learning tool...</p>
+              </div>
+            </div>
+            </div>
+            </div>
+            <!--- Make all this go to the right of the elements-->
+            <div class="container-lg col-11">
+                <h1> Free Code Camp</h1>
+              <h5>freeCodeCamp@gmail.com </h5>
+                <h3> Hello Harshitha Sheshala,<br>
+
+                  This is from Free Code Camp, the free online tool to learn coding. <br>
+                  
+                  We see that you’ve done 20 out of 27 lessons for CSS, hurry up and finish the 7 lessons to receive a free CSS certificate that you can display on your resume! Do this as soon as possible! <br>
+                  
+                  Good luck on your programming journey! <br><br>
+                  
+                  Sincerely,<br>
+                  FreeCodeCamp</h3>
+                  </div>
+                </div>
+                <!-- reply box -->
+                <div class="mb-2 w-75">
+                  <label for="reply-box" class="form-label"><strong>Reply</strong></label>
+                  <textarea class="form-control" id="reply-box" rows="4"></textarea>
+                </div>
+                <!-- reply button -->
+                <div class="d-flex justify-content-start ms-3 w-100 mt-2 ">
+                  <button type="button" class="btn btn-secondary w-25 fs-5">Send</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-end w-100">
+            <button type="button" class="btn btn-secondary w-15 fs-5 compose-hover">Compose</button>
+          </div>
+        </div>
+        </div>
+        </div>
+        </div>
+            </div>
+
+            
+
     </div>
   </body>
 </html>

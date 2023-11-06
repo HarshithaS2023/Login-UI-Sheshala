@@ -1,3 +1,11 @@
 body {
     background: rgb(174, 255, 242);
 }
+
+.highlight {
+    background-color: rgb(221, 159, 43);
+}
+
+.compose {
+    position: fixed;
+}
